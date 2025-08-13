@@ -32,13 +32,13 @@ The workflow includes:
 ---
 
 ##  Project Structure
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks for EDA & experiments
-├── src/ # Scripts for preprocessing & model training
-├── models/ # Saved trained model
-├── results/ # Metrics and plots
-├── requirements.txt # Dependencies
-└── README.md
+ data/ # Dataset files
+├notebooks/ # Jupyter notebooks for EDA & experiments
+src/ # Scripts for preprocessing & model training
+models/ # Saved trained model
+results/ # Metrics and plots
+requirements.txt # Dependencies
+README.md
 ---
 
 ##  Installation
