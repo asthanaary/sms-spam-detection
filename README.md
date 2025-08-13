@@ -1,16 +1,48 @@
-# sms-spam-detection
-This project focuses on building a machine learning model to detect spam messages in SMS text data. It uses natural language processing (NLP) techniques to preprocess the data and a classifier to identify whether a message is spam or ham (not spam). The project demonstrates the complete pipeline — from data cleaning and vectorization to model training, evaluation, and deployment.
+#  SMS Spam Detection
 
-Key Features
-Preprocessing of text data (tokenization, stopword removal, stemming)
+A Machine Learning project to classify SMS messages as **Spam** or **Ham** (Not Spam).  
+Built with **Python**, **scikit-learn**, and **Natural Language Processing (NLP)** techniques using a **Random Forest Classifier**.
 
-Feature extraction using TF-IDF or CountVectorizer
+---
 
-Classification using ML models (Naive Bayes, Logistic Regression, etc.)
+##  Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
 
-Model evaluation using accuracy, precision, recall, and F1-score
+---
 
-(Optional) Streamlit or Flask app for real-time message classification
+##  Overview
+This project applies **Natural Language Processing (NLP)** with a **Random Forest Classifier** to detect spam messages in SMS datasets.  
+The workflow includes:
+- Text preprocessing (tokenization, stopword removal, stemming/lemmatization)
+- Feature extraction using **TF-IDF**
+- Model training & evaluation with Random Forest
 
-Dataset
-The dataset used is the SMS Spam Collection Dataset, which contains 5,000+ labeled SMS messages as 'spam' or 'ham'. Available at UCI Machine Learning Repository.
+---
+
+##  Features
+- Clean and preprocess SMS text data  
+- Extract features using **TF-IDF Vectorizer**  
+- Train a **Random Forest Classifier** for classification  
+- Evaluate using Accuracy, Precision, Recall, and F1-Score  
+- Save trained model for later predictions  
+
+---
+
+##  Project Structure
+├── data/ # Dataset files
+├── notebooks/ # Jupyter notebooks for EDA & experiments
+├── src/ # Scripts for preprocessing & model training
+├── models/ # Saved trained model
+├── results/ # Metrics and plots
+├── requirements.txt # Dependencies
+└── README.md
+---
+
+##  Installation
+Clone the repository:
+```bash
+git clone https://github.com/<your-username>/SMS-Spam-Detection.git
+cd SMS-Spam-Detection
